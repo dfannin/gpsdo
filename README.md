@@ -26,3 +26,5 @@ A 12 volt SMPS was used to drive a 5 volt regulator circuit for the power supply
 ## Software
 The basic arduino sketch provides the overall GPSDO features, and is licenses under the MIT Open-Source License.
 Libraries used include TinyGPS++ Library from http://arduiniana.org/libraries/tinygpsplus/ (LGPL 2.1 License), ClickButton (GPL v3 license), and Statistic (released to public domain).  The user will need to download and install these addtional libraries. Addtionally, the LiquidCrystal\_I2C library was used for the display.
+
+![Schematic](https://raw.github.com/dfannin/gpsdo/master/gpsdo-pll-v4.png)
