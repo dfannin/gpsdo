@@ -1,5 +1,8 @@
 # GPSDO
 GPS Disciplined Oscillator Project (Arduino-based, 10MHz,1MHz,10kHz outputs ) 
+
+![BlockDiagram](https://raw.github.com/dfannin/gpsdo/master/img/GPSDOBlockDiagram.jpg)
+
 ## Description
 The purpose of the GPS Displined Oscillator is to generate a highly accurate and precise 10 MHz reference frequency for use for test equipment calibration and as a reference frequency for radio and other electronic equipment. An additonal benefit is the generation of a highly accurate time source, sutable for use as a Straum-0 clock source.  The following design is a combination of a GPS receiver reference frequency, and a stable voltage controlled oscillator (VCXO) to generate a reference frequency using a digital Phase-locked loop circuit.
 
